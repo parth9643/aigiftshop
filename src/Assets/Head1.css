@@ -1,0 +1,136 @@
+/* Style for the navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  color: white;
+  box-shadow: rgba(99, 110, 139, 0.3) 0px 0px 30px;
+  background-color: rgb(22, 24, 26);
+}
+
+/* Style for the logo */
+.logo {
+  cursor: pointer;
+  max-width: 50px;
+  height: 50px;
+}
+
+/* Style for the right side of the navbar */
+.navbar-right {
+  display: flex;
+  gap: 20px;
+}
+
+/* Style for navbar items */
+.navbar-item {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-item:hover {
+
+  transform: scale(1.2);
+}
+
+/* Style for the button */
+.navbar-button {
+  padding: 12px 25px;
+  background-color: #14a7d8;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.navbar-button:hover {
+  transform: scale(1.1);
+}
+/* Existing styles */
+
+/* New styles for mobile */
+/* Existing styles */
+
+/* New styles for mobile */
+@media (max-width: 768px) {
+  .navbar {
+    height: 70px;
+    flex-direction: column;
+    background-color: black !important;
+  }
+  .logo {
+    max-width: 50px;
+    height: 50px;
+    margin-right:310px;
+  }
+
+  .menu-button {
+    display: block;
+    background-color: black !important;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    margin-left: 350px;
+    margin-top:-50px;
+  }
+
+  .menu-button span {
+   
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px auto;
+  }
+
+  .navbar-right {
+    display: none;
+    flex-direction: column;
+    background-color:black!important;
+    position: absolute;
+    top: 57px;
+    left: 0;
+    width: 100%;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+    margin-top: 5px;
+    
+
+  }
+
+  .navbar.menu-open .navbar-right {
+    transform: translateY(0);
+    display: flex;
+    height: 155px;
+  
+  }
+
+  .navbar-item {
+
+    margin: -13px;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    color: white;
+  }
+
+  .navbar-item:hover {
+    background-color: #14a7d8;
+    color: #1d1d1d;
+  }
+
+  .navbar-button {
+    width: 100%;
+    
+  }
+}
