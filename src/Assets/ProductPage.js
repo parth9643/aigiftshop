@@ -69,7 +69,7 @@ function ProductPage() {
           {filteredProducts.map((product, index) => (
             <div key={index} className="product">
               <h3>{product.name}</h3>
-              <p>Category: {product.category}</p>
+              <p>Relationship: {product.category}</p>
               <p>Price Range: {product.price}</p>
               <p>Age: {product.age}</p>
               <p>Occasion: {product.occasion}</p>
