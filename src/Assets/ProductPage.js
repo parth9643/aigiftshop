@@ -31,7 +31,9 @@ function ProductPage() {
     <div className="product-page">
       <h2>Products Matching Your Preferences</h2>
       {filteredProducts.length === 0 ? (
-        <p>No products match your preferences.</p>
+        <p>No products match your preferences.
+        <p>Please Try again Later.</p>
+        We are coming with More Products</p>
       ) : (
         <div className="product-list">
           {filteredProducts.map((product, index) => (
