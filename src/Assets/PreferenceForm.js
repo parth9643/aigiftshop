@@ -41,7 +41,6 @@ function PreferenceForm() {
               <option value="Romantic">Romantic</option>
               <option value="Sexual">Sexual</option> 
               <option value="Work">Work</option>
-              <option value="Situational">Situational </option>
 
             
             </select>
