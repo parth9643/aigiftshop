@@ -117,6 +117,7 @@
   .navbar-item:hover {
     background-color: #14a7d8;
     color: #1d1d1d;
+    width:94%;
   }
 
   .navbar-button {

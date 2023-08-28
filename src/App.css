@@ -7,6 +7,12 @@ body {
   max-width: 100%;
   font-family: "DM Sans";
 }
+@media only screen and (max-width: 1239px) {
+  body{
+  font-family: "DM Sans";
+  }
+
+}
 * {
   margin: 0;
   padding: 0;
@@ -61,6 +67,7 @@ body {
   }
 
   .overlay-text {
+    font-family: "DM Sans";
 
     top: 20%;
     left: 10%;
@@ -74,6 +81,8 @@ body {
     left: 10%;
     font-size: 42px;
     color: black;
+    font-family: "DM Sans";
+
   }
 }
 
@@ -82,7 +91,12 @@ body {
     width: 100%;
   }
 }
-@media only screen and (min-width: 1100px) and (max-width: 1200px) {
+@media only screen and (min-width: 1100px) and (max-width: 1160px) {
+  .InfoImg {
+    width: 106%;
+  }
+}
+@media only screen and (min-width: 1160px) and (max-width: 1200px) {
   .InfoImg {
     width: 110%;
   }
@@ -173,6 +187,8 @@ body {
     align-items: flex-start;
     /* Align items at the top */
     margin-top: -20px;
+    font-family: "DM Sans";
+
   }
 
   .AboutImg {
@@ -185,25 +201,33 @@ body {
     font-size: 35px;
     font-family: "DM Sans";
     color: black;
-    margin-left: 60px !important;
+    margin-left: 30px !important;
     align-items: center;
     justify-content: center;
+    font-family: "DM Sans";
+
   }
 
   .About-text {
     margin-top: 50px;
     margin-left: 5px;
+    font-family: "DM Sans";
+
     font-size: 18px;
   }
 
   .About-text1 {
-    margin-left: 0px;
-    font-size: 22px;
+    margin-left: 5px;
+    font-size: 18px;
+    font-family: "DM Sans";
+
   }
 
   .About-text2 {
-    margin-left: 0px;
-    font-size: 22px;
+    margin-left: 5px;
+    font-size: 18px;
+    font-family: "DM Sans";
+
   }
 
 }
@@ -292,6 +316,8 @@ body {
 @media (max-width: 768px) {
   .Service-Tittle {
     font-size: 35px;
+    font-family: "DM Sans";
+
     /* margin: 10px auto; */
   }
   
